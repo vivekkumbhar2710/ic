@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include interest_calculation *.css
+recursive-include interest_calculation *.csv
+recursive-include interest_calculation *.html
+recursive-include interest_calculation *.ico
+recursive-include interest_calculation *.js
+recursive-include interest_calculation *.json
+recursive-include interest_calculation *.md
+recursive-include interest_calculation *.png
+recursive-include interest_calculation *.py
+recursive-include interest_calculation *.svg
+recursive-include interest_calculation *.txt
+recursive-exclude interest_calculation *.pyc

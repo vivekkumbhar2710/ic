@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:IAC-{from_date}-to-{to_date}",
+ "creation": "2023-06-14 17:51:47.093488",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "interest_calculation_section",
+  "select_account",
+  "section_break_ezuvo",
+  "from_date",
+  "column_break_omvje",
+  "to_date",
+  "section_break_5ebta",
+  "interest_rate_details",
+  "section_break_rb5ek",
+  "get_details",
+  "interest_calculation_details",
+  "total_interest"
+ ],
+ "fields": [
+  {
+   "fieldname": "interest_calculation_section",
+   "fieldtype": "Section Break",
+   "label": "Interest Calculation"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_omvje",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_5ebta",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "interest_rate_details",
+   "fieldtype": "Table",
+   "label": "Interest Rate Details",
+   "options": "Interest Rate Details"
+  },
+  {
+   "fieldname": "section_break_rb5ek",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "get_details",
+   "fieldtype": "Button",
+   "label": "Get Details"
+  },
+  {
+   "fieldname": "interest_calculation_details",
+   "fieldtype": "Table",
+   "label": "Interest Calculation Details",
+   "options": "Interest Calculation Details"
+  },
+  {
+   "fieldname": "select_account",
+   "fieldtype": "Link",
+   "label": "Select Account",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_ezuvo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_interest",
+   "fieldtype": "Float",
+   "label": "Total Interest"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-16 17:25:44.619460",
+ "modified_by": "Administrator",
+ "module": "Interest Calculation",
+ "name": "Interest Amount Calculation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
